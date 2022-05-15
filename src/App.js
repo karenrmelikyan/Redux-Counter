@@ -10,7 +10,7 @@ function App() {
   return (
       <>
           <div align={"center"} >
-              <h1>{count}</h1>
+              <h1>Counter: {count}</h1>
               <button onClick={() => dispatch(decrement())}>-</button>
               <button onClick={() => dispatch(increment())}>+</button>
           </div>
