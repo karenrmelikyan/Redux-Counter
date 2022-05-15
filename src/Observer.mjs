@@ -3,9 +3,9 @@ import {useSelector} from "react-redux";
 
 export default function Observer() {
 
-    const {count} = useSelector((state) => state.counter);
+    const {value} = useSelector(state => state.counter);
 
     return(
-        <h1 align={"center"}>Observer: {count}</h1>
+        <h3 align="center">Observer: {value}</h3>
     );
 }
