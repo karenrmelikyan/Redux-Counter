@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Observer from './Observer.mjs';
+import ByBulk from "./ByBulk.mjs";
 import {Provider} from "react-redux";
 import store from './redux/store.mjs';
 
@@ -15,6 +16,7 @@ root.render(
         <Provider store={store}>
             <App />
             <Observer />
+            <ByBulk />
         </Provider>
     </React.StrictMode>
 )
